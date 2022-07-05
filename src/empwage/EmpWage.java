@@ -6,12 +6,17 @@ public class EmpWage {
 		System.out.println("Welcome to Employee Wage Computation Program");
 		System.out.println();
 		int employeePresent=1;
-		int ispresent = (int) (Math.floor(Math.random()*10)%2);
-		if(ispresent == employeePresent)
+		int wagePerhour=20;
+		int empHour=8;
+		int ispresent= (int) (Math.floor(Math.random()*10)%2);
+		if(ispresent==employeePresent) {
 			System.out.println("Employee is Present");
-		else
+		System.out.println("Employee Wage for day=" +empHour*wagePerhour);
+		} else {
 			System.out.println("Employee is Absent");
+			System.out.println("Employee Wage for day= 0");
 
+	}
 		}
 
 	}
