@@ -13,7 +13,10 @@ public class EmpWage {
 	static final int WorkingDayInMonth = 20;
 	static final int WorkingHourPerMonth = 100;
 
-
+	public void EmpW() {
+		EmpWage a = new EmpWage();
+		a.EmpW();
+	}
 	public static void main(String[] args) {
 		System.out.println("Welcome to Employee Wage Computation Program");
 		System.out.println();
